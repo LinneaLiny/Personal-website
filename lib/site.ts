@@ -28,16 +28,11 @@ export const site = {
   ],
   projects: [
     {
-      name: "项目名称 A",
-      description: "一句话介绍你做了什么、解决了什么问题。",
-      href: "https://example.com",
-      tags: ["Next.js", "TypeScript", "Tailwind"],
-    },
-    {
-      name: "项目名称 B",
-      description: "一句话介绍你做了什么、解决了什么问题。",
-      href: "https://example.com",
-      tags: ["React", "Node.js"],
+      name: "LLM Context & Confidence Analysis",
+      description:
+        "Framework for testing how different contextual dimensions affect LLM confidence calibration and stance detection in social media. Evaluates multiple models (GPT-4, Claude, Llama, etc.) across 8 context variants with accuracy, calibration, and sensitivity metrics.",
+      href: "https://github.com/LiMaoUM/llm-context",
+      tags: ["Python", "LLM", "NLP", "Research"],
     },
   ],
 } as const;

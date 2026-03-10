@@ -19,7 +19,7 @@ export function Header() {
               <a
                 key={item.href}
                 href={item.href}
-                className="transition-colors hover:text-foreground"
+                className="transition-colors duration-200 hover:text-foreground"
               >
                 {item.label}
               </a>

@@ -40,6 +40,13 @@ export const site = {
       href: "https://github.com/LiMaoUM/llm-context",
       tags: ["Python", "LLM", "NLP", "Research"],
     },
+    {
+      name: "Prompt Companion",
+      description:
+        "Chrome extension (Manifest V3) that turns short descriptions into polished prompts for video, image, writing, and code. Uses a local Node.js backend with an LLM (OpenAI-compatible API) to generate and refine prompts. Supports AI insight as you type, quick-add chips, copy/insert into page, and Favorites & History.",
+      href: "https://github.com/LinneaLiny/Prompt-Companion",
+      tags: ["Chrome Extension", "React", "Node.js", "LLM"],
+    },
   ],
 } as const;
 
